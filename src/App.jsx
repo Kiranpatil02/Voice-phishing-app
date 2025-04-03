@@ -1,10 +1,13 @@
+import { Body } from "./Components/Body/Body"
+import { Navbar } from "./Components/Navbar/Navbar"
 
 function App() {
 
   return (
     <>
     <div>
-      <h2 className='bg-red-500'>Hey there</h2>
+      <Navbar/>
+      <Body/>
     </div>
 
     </>
