@@ -1,5 +1,6 @@
 import { Body } from "./Components/Body/Body"
 import { Navbar } from "./Components/Navbar/Navbar"
+import SoundWaveAnimation from "./Components/Wave_Animation/Wave"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navbar/>
       <Body/>
+      {/* <SoundWaveAnimation/> */}
     </div>
 
     </>
