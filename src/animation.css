@@ -1,13 +1,10 @@
 /* SoundWaveAnimation.css */
 .animation-container {
-    margin: 0;
     overflow: hidden; /* Ensure canvas doesn't cause scrollbars */
     background-color: #1e1e1e;
-    display: flex; /* Use flex to center canvas is redundant if canvas fills window */
-    justify-content: center;
     align-items: center;
-    width: 46vw; /* Ensure container takes full viewport width */
-    height: 42vh; /* Ensure container takes full viewport height */
+    width: 80%; /* Ensure container takes full viewport width */
+    height:80%; /* Ensure container takes full viewport height */
     position: relative; /* Needed for absolute positioning of controls */
     border-radius: 50px;
   }
@@ -19,40 +16,7 @@
   }
   
   
-  .controls label {
-    display: flex;
-    align-items: center;
-    gap: 5px; /* Space between label text and input */
-    white-space: nowrap; /* Prevent labels from wrapping */
-  }
-  
+
 
   
   /* Optional: Style range input tracks and thumbs for better aesthetics (cross-browser) */
-  input[type=range] {
-    -webkit-appearance: none; /* Override default look */
-    appearance: none;
-    height: 8px; /* Track height */
-    background: #555; /* Track color */
-    border-radius: 4px;
-    outline: none;
-  }
-  
-  input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 16px; /* Thumb width */
-    height: 16px; /* Thumb height */
-    background: #4CAF50; /* Thumb color */
-    border-radius: 50%; /* Make it round */
-    cursor: pointer;
-  }
-  
-  input[type=range]::-moz-range-thumb {
-    width: 16px;
-    height: 16px;
-    background: #4CAF50;
-    border-radius: 50%;
-    cursor: pointer;
-    border: none; /* Remove default border in Firefox */
-  }

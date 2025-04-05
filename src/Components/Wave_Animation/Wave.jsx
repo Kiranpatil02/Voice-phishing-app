@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import 'C:/Users/Kiran Patil/Desktop/Computer Security/endsem/src/animation.css'; // We'll create this CSS file next
+import '../../../src/animation.css'; // We'll create this CSS file next
 
 function SoundWaveAnimation() {
   const canvasRef = useRef(null);
@@ -204,7 +204,7 @@ function SoundWaveAnimation() {
 
 
   return (
-    <div className="animation-container"> {/* Added a container */}
+    <div className="animation-container "> {/* Added a container */}
       <canvas ref={canvasRef} id="canvas"></canvas>
     </div>
   );
