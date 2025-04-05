@@ -1,6 +1,10 @@
 import { Heading } from "@radix-ui/themes";
 import React from "react";
 import SoundWaveAnimation from "../Wave_Animation/Wave";
+import { Deepfakeinfo } from "../Deepfake/Deepfake";
+import img from "../../assets/Group 1.svg";
+import img2 from "../../assets/Group 3.svg";
+import img4 from "../../assets/Group 5.svg";
 
 export function Body() {
   return (
@@ -21,6 +25,30 @@ export function Body() {
           <SoundWaveAnimation />
         </div>
       </div>
+      <div className="">
+          <Deepfakeinfo
+            title="Authenticity Check for Voice calls"
+            description="Detect synthetic or morphed voices with advanced spectrogram-based deep learning analysis."
+            category="Deep Learning"
+            imagesrc={img}
+          />
+          <Deepfakeinfo
+            title="Analyze Conversations for Phishing Risks"
+            description="We process recorded audio with LLMs to extract insights, detect suspicious intent, and flag potential phishing conversations."
+            category="Large Language Models"
+            imagesrc={img2}
+            size={300}
+            
+          />
+          <Deepfakeinfo
+            title="Analyze Conversations for Phishing Risks"
+            description="We process recorded audio with LLMs to extract insights, detect suspicious intent, and flag potential phishing conversations."
+            category="Large Language Models"
+            imagesrc={img4}
+          />
+          {/* <Facts/> */}
+          {/* <AudioProcessingFlow/> */}
+        </div>
     </>
   );
 }
