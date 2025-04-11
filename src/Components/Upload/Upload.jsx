@@ -25,7 +25,7 @@ export function Upload() {
   const ALLOWED_EXTENSIONS = ["wav", "mp3"]; // Define allowed extensions
   const ALLOWED_MIME_TYPES = ["audio/wav", "audio/mpeg"]; // Define corresponding MIME types
 
-    const DEEPFAKE_URL = "https://97d3-2409-40f4-2105-2f88-95aa-d2b7-c5de-6fbc.ngrok-free.app/predict/";
+    const DEEPFAKE_URL = "https://1452-2409-40f4-2105-2f88-95aa-d2b7-c5de-6fbc.ngrok-free.app/predict/";
   const LLM_URL = "https://your-ngrok-url.com/llm/"; 
   const GEMINI_API_KEY = "AIzaSyByKg5DBFcI166VkQc8Tx0GGwre_0us9TQ";
   const genAI = new GoogleGenerativeAI(GEMINI_API_KEY); 
